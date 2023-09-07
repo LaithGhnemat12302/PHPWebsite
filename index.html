@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styleMain.css">
+</head>
+
+<body>
+    <h1>Welcome!</h1>
+
+    <form action="index.php" method="post">
+        <table>
+            <tr>
+                <th colspan="2">Register</th>
+            </tr>
+            <tr>
+                <td>User Name:</td>
+                <td><input type="text" name="username" id="username"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+
+            <tr>
+                <td>Confirm PW:</td>
+                <td><input type="password" name="confirm" id="connfirm"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="button" name="Register" type="submit" value="Register"></td>
+            </tr>
+        </table>
+
+        <br>
+        <table>
+            <tr>
+                <th colspan="2">Log In</th>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="emailSignUp" id="emailSignUp"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="passwordSignUp" id="passwordSignUp"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="button" name="LogIn" type="submit" value="Log In"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
+
